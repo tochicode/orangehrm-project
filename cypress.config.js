@@ -1,11 +1,12 @@
 const { defineConfig } = require("cypress");
 
 module.exports = defineConfig({
+  projectId: '8cmetk',
   e2e: {
     setupNodeEvents(on, config) {
       // implement node event listeners here
-      this.video=true;
-      this.retries=1;
     },
+    video: true,
+    retries: 1
   },
 });

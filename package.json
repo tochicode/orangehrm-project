@@ -1,5 +1,19 @@
 {
+  "name": "automation",
+  "version": "1.0.0",
+  "description": "cypress automation",
+  "main": "index.js",
+  "scripts": {
+    "cypress-local": "npx cypress run -b chrome --headless",
+    "ci-test": "npx cypress run"
+  },
+  "author": "Joseph",
+  "license": "ISC",
   "devDependencies": {
     "cypress": "^13.6.2"
+  },
+  "dependencies": {
+    "cypress-file-upload": "^5.0.8"
   }
 }
+
