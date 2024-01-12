@@ -398,7 +398,5 @@ FodyWeavers.xsd
 *.sln.iml
 
 # Files to be excluded
-node_modules
-package-lock.json
-cypress.config.js
+
 
